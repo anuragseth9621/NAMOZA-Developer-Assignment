@@ -18,6 +18,12 @@ https://namoza-developer-assignment-1grj.onrender.com
 
 ---
 
+## Loom Walkthrough
+
+https://www.loom.com/share/03c407eed8ef42a48b5291a7549f2d04
+
+---
+
 ## GitHub Repository
 
 https://github.com/anuragseth9621/NAMOZA-Developer-Assignment
