@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get an expert orthopaedic opinion for chronic knee and back pain at OrthoNow Bengaluru. Consult top specialists and regain your pain-free mobility today.">
+  <title>Expert Orthopaedic Consultation for Knee &amp; Back Pain | OrthoNow Bengaluru</title>
+  
+  <meta property="og:title" content="Expert Orthopaedic Consultation for Knee &amp; Back Pain | OrthoNow">
+  <meta property="og:description" content="Don't let knee or back pain stall your career. Book an expert orthopaedic consultation at OrthoNow Bengaluru today.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.orthonow.in/bengaluru">
+  
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%230c4a6e'/%3E%3Cpath d='M16 8v16M8 16h16' stroke='%2315803d' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <style>
+    /* ==========================================================================
+       CSS VARIABLES & DESIGN SYSTEM (Optimized Critical Path)
+       ========================================================================== */
+    :root {
+      --primary: #0c4a6e;
+      --primary-hover: #075985;
+      --primary-light: #e0f2fe;
+      --accent: #15803d;
+      --accent-hover: #166534;
+      --accent-light: #dcfce7;
+      
+      /* WCAG AAA Compliant Accessible Typography Colors */
+      --text-main: #0f172a;
+      --text-muted: #334155; 
+      --bg-pure: #ffffff;
+      --bg-alt: #f8fafc;
+      --border: #cbd5e1;
+      
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      
+      --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+      --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.05);
+      --shadow-lg: 0 20px 25px -5px rgba(15, 23, 42, 0.08);
+      
+      --font-stack: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease;
+    }
+
+    /* ==========================================================================
+       RESET & BASE STYLES
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-family: var(--font-stack);
+      color: var(--text-main);
+      background-color: var(--bg-pure);
+      scroll-behavior: smooth;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-size: 1rem;
+      line-height: 1.5;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.2;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    button, input {
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+    }
+
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+
+    /* Focus States for Accessibility */
+    *:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    /* Layout Utilities */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    .section-padding {
+      padding: 3.5rem 0;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* Below-the-fold Render Optimization to mitigate Mobile CPU load profiles */
+    .lazy-render-section {
+      content-visibility: auto;
+      contain-intrinsic-size: 1px 500px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto !important; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+
+    /* ==========================================================================
+       HEADER
+       ========================================================================== */
+    .site-header {
+      background-color: var(--bg-pure);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      contain: layout;
+    }
+
+    .header-flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: var(--primary);
+    }
+
+    .logo-icon {
+      width: 28px;
+      height: 28px;
+      aspect-ratio: 1;
+    }
+
+    .header-badge {
+      background-color: var(--accent-light);
+      color: var(--accent-hover);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.7rem;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .badge-dot {
+      width: 6px;
+      height: 6px;
+      background-color: var(--accent);
+      border-radius: 50%;
+    }
+
+    /* ==========================================================================
+       HERO SECTION
+       ========================================================================== */
+    .hero-section {
+      background: linear-gradient(180deg, var(--bg-alt) 0%, var(--bg-pure) 100%);
+      padding: 2rem 0 3.5rem 0;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .hero-headline {
+      font-size: 2rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+
+    .hero-headline span {
+      color: var(--accent);
+    }
+
+    .hero-subheadline {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    /* Strict Aspect-Ratio Layout Box Configuration to eradicate CLS */
+    .hero-illustration {
+      width: 100%;
+      max-width: 420px;
+      margin: 0 auto;
+      background-color: var(--primary-light);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-md);
+      aspect-ratio: 1 / 1;
+    }
+
+    /* ==========================================================================
+       CONVERSION FORM COMPONENT
+       ========================================================================== */
+    .form-card {
+      background-color: var(--bg-pure);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      min-height: 295px; /* Locks structural container footprint to prevent layout shifts */
+    }
+
+    .form-header {
+      margin-bottom: 1rem;
+    }
+
+    .form-title {
+      font-size: 1.25rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .form-subtitle {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      color: var(--text-main);
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background-color: var(--bg-alt);
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      font-size: 1rem;
+    }
+
+    .form-input:focus {
+      outline: none;
+      border-color: var(--primary);
+      background-color: var(--bg-pure);
+      box-shadow: 0 0 0 3px rgba(12, 74, 110, 0.15);
+    }
+
+    /* High Performance Native Form Feedback Layer Architecture */
+    .input-error-msg {
+      color: #b91c1c;
+      font-size: 0.75rem;
+      margin-top: 0.25rem;
+      display: none;
+      font-weight: 500;
+    }
+
+    /* Pure CSS Native Constraint Handling Pattern */
+    .form-input.touched:invalid {
+      border-color: #b91c1c;
+      background-color: #fef2f2;
+    }
+
+    .form-input.touched:invalid + .input-error-msg {
+      display: block;
+    }
+
+    .submit-btn {
+      width: 100%;
+      background-color: var(--accent);
+      color: var(--bg-pure);
+      font-weight: 700;
+      padding: 0.875rem 1.5rem;
+      border: none;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      box-shadow: var(--shadow-sm);
+      min-height: 48px;
+    }
+
+    .submit-btn:hover:not(:disabled) {
+      background-color: var(--accent-hover);
+    }
+
+    .submit-btn:disabled {
+      background-color: #64748b;
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .spinner {
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top-color: var(--bg-pure);
+      animation: spin 0.8s linear infinite;
+      display: none;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .submit-btn.is-loading .spinner {
+      display: block;
+    }
+    
+    .submit-btn.is-loading .btn-text {
+      display: none;
+    }
+
+    .success-container {
+      display: none;
+      text-align: center;
+      padding: 1.5rem 0;
+      animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.98); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .success-icon-wrap {
+      width: 56px;
+      height: 56px;
+      background-color: var(--accent-light);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1rem auto;
+      color: var(--accent);
+    }
+
+    /* ==========================================================================
+       TRUST SECTION
+       ========================================================================== */
+    .trust-section {
+      background-color: var(--bg-alt);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 2.5rem 0;
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    .trust-card {
+      background-color: var(--bg-pure);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .trust-value {
+      font-size: 1.35rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 0.15rem;
+    }
+
+    .trust-label {
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      line-height: 1.2;
+    }
+
+    /* ==========================================================================
+       BENEFITS SECTION
+       ========================================================================== */
+    .section-title {
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-subtitle {
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      max-width: 600px;
+      margin: 0 auto 2rem auto;
+    }
+
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    .benefit-card {
+      background-color: var(--bg-pure);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .benefit-card:hover {
+      transform: translateY(-2px);
+      border-color: #94a3b8;
+    }
+
+    .benefit-icon {
+      width: 40px;
+      height: 40px;
+      background-color: var(--primary-light);
+      color: var(--primary);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      aspect-ratio: 1;
+    }
+
+    .benefit-title {
+      font-size: 1.15rem;
+      margin-bottom: 0.35rem;
+    }
+
+    .benefit-description {
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+    }
+
+    /* ==========================================================================
+       SOCIAL PROOF (TESTIMONIALS) SECTION
+       ========================================================================== */
+    .testimonials-section {
+      background-color: var(--bg-alt);
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    .testimonial-card {
+      background-color: var(--bg-pure);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .testimonial-rating {
+      display: flex;
+      gap: 2px;
+      color: #ca8a04; 
+      margin-bottom: 0.75rem;
+    }
+
+    .testimonial-text {
+      font-style: italic;
+      color: var(--text-main);
+      margin-bottom: 1.25rem;
+      font-size: 0.9375rem;
+    }
+
+    .testimonial-meta {
+      border-top: 1px solid var(--border);
+      padding-top: 0.75rem;
+    }
+
+    .patient-identity {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 0.9375rem;
+    }
+
+    .patient-details {
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .patient-outcome {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: var(--accent-hover);
+      background-color: var(--accent-light);
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    /* ==========================================================================
+       FINAL CTA SECTION
+       ========================================================================== */
+    .final-cta-section {
+      background: linear-gradient(135deg, var(--primary) 0%, #0369a1 100%);
+      color: var(--bg-pure);
+      text-align: center;
+    }
+
+    .final-cta-section h2 {
+      color: var(--bg-pure);
+      font-size: 1.6rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .final-cta-section p {
+      color: var(--primary-light);
+      margin-bottom: 1.5rem;
+      max-width: 500px;
+      margin: 0 auto 1.5rem auto;
+    }
+
+    .scroll-cta-btn {
+      background-color: var(--accent);
+      color: var(--bg-pure);
+      font-weight: 700;
+      padding: 0.875rem 2rem;
+      border: none;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      display: inline-block;
+      box-shadow: var(--shadow-md);
+      transition: var(--transition);
+      min-height: 48px;
+    }
+
+    .scroll-cta-btn:hover {
+      background-color: var(--accent-hover);
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================================
+       FOOTER
+       ========================================================================== */
+    .site-footer {
+      background-color: var(--text-main);
+      color: #94a3b8;
+      font-size: 0.8125rem;
+      padding: 1.5rem 0;
+      border-top: 1px solid #1e293b;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      text-align: center;
+    }
+
+    /* ==========================================================================
+       MOBILE STICKY CTA BAR COMPONENT
+       ========================================================================== */
+    .sticky-mobile-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: var(--bg-pure);
+      border-top: 1px solid var(--border);
+      padding: 0.5rem 1.25rem;
+      box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.06);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transform: translateY(100%);
+      transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      will-change: transform;
+      contain: layout paint;
+    }
+
+    .sticky-mobile-bar.is-visible {
+      transform: translateY(0);
+    }
+
+    .sticky-text-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sticky-bar-title {
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .sticky-bar-sub {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .sticky-bar-btn {
+      background-color: var(--accent);
+      color: var(--bg-pure);
+      font-weight: 700;
+      font-size: 0.875rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      min-height: 40px;
+    }
+
+    /* ==========================================================================
+       RESPONSIVE BREAKPOINTS (Optimized Media Hierarchy)
+       ========================================================================== */
+    @media (min-width: 540px) {
+      .trust-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media (min-width: 768px) {
+      .hero-headline { font-size: 2.5rem; }
+      .section-title { font-size: 2.1rem; }
+      .final-cta-section h2 { font-size: 2.1rem; }
+      .benefits-grid { grid-template-columns: repeat(3, 1fr); }
+      .testimonials-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (min-width: 1024px) {
+      .hero-section { padding: 3.5rem 0 5rem 0; }
+      .hero-grid {
+        grid-template-columns: 1.25fr 0.75fr;
+        gap: 3.5rem;
+      }
+      .form-card { padding: 2rem; min-height: 330px; }
+      .sticky-mobile-bar { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-flex">
+      <div class="logo-container">
+        <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" width="28" height="28">
+          <circle cx="16" cy="16" r="14" fill="url(#logo-grad)"/>
+          <path d="M16 8v16M8 16h16" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="logo-grad" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#0c4a6e"/>
+              <stop offset="1" stop-color="#0284c7"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>OrthoNow</span>
+      </div>
+      <div class="header-badge">
+        <span class="badge-dot" aria-hidden="true"></span>
+        NABH Accredited Clinics
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-headline">Expert Orthopaedic Consultation for <span>Knee &amp; Back Pain</span></h1>
+          <p class="hero-subheadline">Working long hours with knee or back pain?
+
+            Consult an experienced orthopaedic specialist in Bengaluru and get a personalised treatment plan — often with same-week appointments.</p>
+          
+          <div class="form-card" id="form-container">
+            <div id="form-interactive-view">
+              <div class="form-header">
+                <h2 class="form-title">Book Consultation</h2>
+                <p class="form-subtitle">Skip the long hospital waiting lists. Arrange your priority call.</p>
+              </div>
+              
+              <form id="consultation-form" novalidate>
+                <div class="form-group">
+                  <label class="form-label" for="patient-name">Full Name</label>
+                  <input 
+                    type="text" 
+                    id="patient-name" 
+                    name="name" 
+                    class="form-input" 
+                    placeholder="Enter your full name" 
+                    required 
+                    autocomplete="name"
+                    aria-required="true"
+                    aria-describedby="name-error"
+                  >
+                  <span class="input-error-msg" id="name-error" role="alert">Please enter your full name.</span>
+                </div>
+                
+                <div class="form-group">
+                  <label class="form-label" for="patient-phone">Mobile Number</label>
+                  <input 
+                    type="tel" 
+                    id="patient-phone" 
+                    name="phone" 
+                    class="form-input" 
+                    placeholder="10-digit mobile number" 
+                    required 
+                    pattern="^[6-9]\d{9}$"
+                    autocomplete="tel"
+                    aria-required="true"
+                    inputmode="numeric"
+                    aria-describedby="phone-error"
+                    maxlength="10"
+                  >
+                  <span class="input-error-msg" id="phone-error" role="alert">Please enter a valid 10-digit Indian mobile number starting with 6-9.</span>
+                </div>
+                
+                <button type="submit" class="submit-btn" id="submit-button">
+                  <span class="spinner" aria-hidden="true"></span>
+                  <span class="btn-text">Book Free Consultation</span>
+                </button>
+              </form>
+            </div>
+
+            <div id="form-success-view" class="success-container" tabindex="-1" role="region" aria-live="polite" aria-labelledby="success-heading">
+              <div class="success-icon-wrap">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <h2 id="success-heading" style="color: var(--primary); font-size: 1.35rem; margin-bottom: 0.5rem;">Request Confirmed!</h2>
+              <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0.25rem;">Thank you! Our care coordinator will call you within 30 minutes.</p>
+              <p style="color: var(--text-muted); font-size: 0.85rem;">Operating Hours: 8:00 AM - 8:00 PM (Bengaluru)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-illustration" focusable="false" aria-hidden="true">
+          <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto;" width="400" height="400">
+            <circle cx="200" cy="200" r="160" stroke="#0284c7" stroke-width="2" stroke-dasharray="8 8" opacity="0.4"/>
+            <circle cx="200" cy="200" r="120" stroke="#16a34a" stroke-width="1.5" opacity="0.3"/>
+            <polygon points="200,60 320,120 320,260 200,340 80,260 80,120" fill="#ffffff" stroke="#0c4a6e" stroke-width="4" stroke-linejoin="round"/>
+            <rect x="185" y="110" width="30" height="20" rx="4" fill="#0c4a6e"/>
+            <rect x="180" y="140" width="40" height="22" rx="4" fill="#0284c7"/>
+            <rect x="175" y="172" width="50" height="24" rx="4" fill="#16a34a"/>
+            <rect x="180" y="206" width="40" height="22" rx="4" fill="#0284c7"/>
+            <rect x="185" y="238" width="30" height="20" rx="4" fill="#0c4a6e"/>
+            <circle cx="200" cy="95" r="6" fill="#0c4a6e"/>
+            <circle cx="200" cy="275" r="6" fill="#0c4a6e"/>
+            <path d="M120 180 Q140 160 160 180" stroke="#16a34a" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+            <path d="M240 200 Q260 220 280 200" stroke="#16a34a" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+            <path d="M110 210 Q130 190 150 210" stroke="#0284c7" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+            <path d="M250 170 Q270 190 290 170" stroke="#0284c7" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-section">
+      <div class="container">
+        <h2 class="sr-only">Our Accreditations and Statistics</h2>
+        <div class="trust-grid">
+          <div class="trust-card">
+            <span class="trust-value">4.9/5</span>
+            <span class="trust-label">Patient Rating</span>
+          </div>
+          <div class="trust-card">
+            <span class="trust-value">15k+</span>
+            <span class="trust-label">Consultations Done</span>
+          </div>
+          <div class="trust-card">
+            <span class="trust-value">25+</span>
+            <span class="trust-label">Specialists Available</span>
+          </div>
+          <div class="trust-card">
+            <span class="trust-value">100%</span>
+            <span class="trust-label">NABH Accredited</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding lazy-render-section" id="benefits">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title">Designed for Working Professionals</h2>
+          <p class="section-subtitle">Get medical attention matching your schedule constraints without sacrificing standard treatment protocols.</p>
+        </div>
+        
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon" focusable="false" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Expert Diagnosis</h3>
+            <p class="benefit-description">Consult Senior Orthopaedic Surgeons specializing in chronic corporate stress injuries, repetitive strain injuries, and disc protocols.</p>
+          </div>
+          
+          <div class="benefit-card">
+            <div class="benefit-icon" focusable="false" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Same-Week Openings</h3>
+            <p class="benefit-description">Book appointments that fit your busy work schedule, including same-week availability whenever possible.</p>
+          </div>
+          
+          <div class="benefit-card">
+            <div class="benefit-icon" focusable="false" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="benefit-title">Tailored Recovery Plans</h3>
+            <p class="benefit-description">Receive explicit roadmaps matching your environment, complete with ergonomic desk adaptations and advanced physical therapy tracking.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding testimonials-section lazy-render-section">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-title">Real Outcomes from Bengaluru Professionals</h2>
+          <p class="section-subtitle">Read how peers at technology hubs resolved chronic physical pain barriers.</p>
+        </div>
+        
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-rating" aria-label="5 out of 5 Star Rating">
+                <span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span>
+              </div>
+              <p class="testimonial-text">"Sitting for 9+ hours at my desk inside Outer Ring Road IT parks left my lower back locking up completely. The specialist at OrthoNow accurately located my core weakness and fixed my posture cycle. Incredible care profile."</p>
+            </div>
+            <div class="testimonial-meta">
+              <p class="patient-identity">Rajesh M.</p>
+              <p class="patient-details">Age 34 • Principal Software Engineer</p>
+              <span class="patient-outcome">Result: Resolving Back Lumbar Pain</span>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-rating" aria-label="5 out of 5 Star Rating">
+                <span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span>
+              </div>
+              <p class="testimonial-text">"Severe knee pain made climbing the stairs at my Whitefield office difficult. After just a few weeks of treatment, I was able to move comfortably again. The non-surgical treatment plan was simple, effective, and fit my busy schedule."</p>
+            </div>
+            <div class="testimonial-meta">
+              <p class="patient-identity">Sneha Hegde</p>
+              <p class="patient-details">Age 29 • UX Design Lead</p>
+              <span class="patient-outcome">Result: Full Knee Mobility Restored</span>
+            </div>
+          </div>
+          
+          <div class="testimonial-card">
+            <div>
+              <div class="testimonial-rating" aria-label="5 out of 5 Star Rating">
+                <span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span><span aria-hidden="true">★</span>
+              </div>
+              <p class="testimonial-text">"An old sports knee injury combined with daily heavy traffic commutes triggered bad swelling. The treatment timeline combined with tailored weekend therapy routines fit my lifestyle perfectly."</p>
+            </div>
+            <div class="testimonial-meta">
+              <p class="patient-identity">Vikram Aditya</p>
+              <p class="patient-details">Age 45 • Infrastructure Director</p>
+              <span class="patient-outcome">Result: Overcame Chronic Swelling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding final-cta-section lazy-render-section">
+      <div class="container">
+        <h2>Regain Pain-Free Work Performance</h2>
+        <p>Avoid worsening structural inflammation. Secure your direct evaluation with a clinical specialist today.</p>
+        <button type="button" class="scroll-cta-btn" id="scrollToFormBtn">Book Your Priority Consultation Now</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 OrthoNow Clinics Healthcare Network. All rights reserved.</p>
+      <p style="opacity: 0.7; max-width: 800px; margin: 0 auto; line-height: 1.4;">Disclaimer: Clinical consultations are provided by certified orthopaedic medical practitioners registered with the Karnataka Medical Council. Medical outcomes depend on independent diagnostic evaluations.</p>
+    </div>
+  </footer>
+
+  <div class="sticky-mobile-bar" id="mobile-cta-bar">
+    <div class="sticky-text-wrap">
+      <span class="sticky-bar-title">Expert Orthopaedic Opinion</span>
+      <span class="sticky-bar-sub">Slots available in Bengaluru</span>
+    </div>
+    <button type="button" class="sticky-bar-btn" id="mobileBarSubmitBtn">Book Now</button>
+  </div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      // Initialize Tracking Layer
+      window.dataLayer = window.dataLayer || [];
+
+      const form = document.getElementById('consultation-form');
+      const nameInput = document.getElementById('patient-name');
+      const phoneInput = document.getElementById('patient-phone');
+      const submitBtn = document.getElementById('submit-button');
+      
+      const formInteractiveView = document.getElementById('form-interactive-view');
+      const formSuccessView = document.getElementById('form-success-view');
+      const container = document.getElementById('form-container');
+      
+      const mobileCtaBar = document.getElementById('mobile-cta-bar');
+
+      // Native Engine Blur Handling - Avoids redundant processing loops
+      const markTouched = function (e) {
+        e.target.classList.add('touched');
+      };
+      nameInput.addEventListener('blur', markTouched, { passive: true });
+      phoneInput.addEventListener('blur', markTouched, { passive: true });
+
+      // Direct Validation Form Submitter
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        
+        nameInput.classList.add('touched');
+        phoneInput.classList.add('touched');
+
+        if (!form.checkValidity()) {
+          if (!nameInput.checkValidity()) nameInput.focus();
+          else if (!phoneInput.checkValidity()) phoneInput.focus();
+          return;
+        }
+
+        // Freeze Layout Controls to block redundant double submissions
+        submitBtn.disabled = true;
+        submitBtn.classList.add('is-loading');
+        submitBtn.setAttribute('aria-busy', 'true');
+
+        setTimeout(function () {
+          window.dataLayer.push({
+            event: "consultation_form_submitted",
+            name: nameInput.value.trim(),
+            phone_length: phoneInput.value.trim().length,
+            page: "orthonow_consultation",
+            timestamp: new Date().toISOString()
+          });
+
+          console.log(window.dataLayer);
+
+          // Atomic structural swap to ensure 0 layout thrashing
+          formInteractiveView.style.display = 'none';
+          formSuccessView.style.display = 'block';
+          formSuccessView.focus();
+        }, 950);
+      });
+
+      // Optimized Dynamic Smooth Scroll Mechanics
+      const executeScroll = function () {
+        container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(function () { nameInput.focus({ preventScroll: true }); }, 400);
+      };
+
+      document.getElementById('scrollToFormBtn').addEventListener('click', executeScroll, { passive: true });
+      document.getElementById('mobileBarSubmitBtn').addEventListener('click', executeScroll, { passive: true });
+
+      // Non-blocking Passive IntersectionObserver for the mobile context bar
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(function (entries) {
+          if (window.innerWidth >= 1024) return;
+          entries.forEach(function (entry) {
+            mobileCtaBar.classList.toggle('is-visible', !entry.isIntersecting);
+          });
+        }, { root: null, threshold: 0.01 });
+        observer.observe(container);
+      }
+    })();
+  </script>
+</body>
+</html>
