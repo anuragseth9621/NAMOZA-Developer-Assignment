@@ -24,11 +24,6 @@ https://github.com/anuragseth9621/NAMOZA-Developer-Assignment
 
 ---
 
-## Preview
-
-![Landing Page](screenshots/landing-page-preview.png)
-
----
 
 ## Technologies Used
 
